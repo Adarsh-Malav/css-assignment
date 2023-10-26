@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        }
+        .container{
+            width: 90%;
+            margin: 40px auto 0;
+            position: relative;
+            background-color: cadetblue;
+        }
+        .main{
+            background:url(images/01image.jpg)no-repeat center center/cover;
+            height: 400px;
+            clip-path: polygon(100% 0, 100% 59%, 49% 100%, 0 70%, 0 0);
+        }
+        .arrow{
+            position: absolute;
+            bottom: -20px;
+            left: 47%;
+            color: white;
+            font-size: 35px;
+            background-color: aqua;
+            padding: 15px 25px;
+            border-radius: 50%;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+        </div>
+        <i class="fa-solid fa-down-long arrow"></i>
+    </div>
+</body>
+</html>
