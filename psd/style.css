@@ -1,0 +1,359 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    font-family: sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 50px;
+}
+.logo{
+    padding-top: 16px;
+
+}
+.nav-menu{
+    padding-top: 16px;
+    margin-left: 70px;
+    padding-left: 90px;
+}
+.nav-menu select{
+
+    margin:0 10px;
+    border: none;
+}
+.nav-menu a{
+    padding: 0 10px;
+}
+.row-right button{
+padding: 15px 20px;
+background-color: #ECE6FF;
+border-radius: 4px;
+color: rgba(82, 82, 234, 0.984);
+font-size: 20px;
+border: none;
+}
+
+/* bar */
+
+.bar{
+    width: 25%;
+    margin: 0 auto;   
+    display: flex; 
+    border-radius: 30px;
+    margin-bottom: 25px;
+
+}
+.save{
+    border-radius: 30px;
+    width: 34%;
+    color: white;
+    text-decoration: none;
+    padding: 5px 8px;
+    background-color: rgb(78, 228, 78);
+}
+.get-acc{
+    width: 66%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.main-text{
+   width: 70%;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.main-text h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+    
+    color: #35414B;
+}
+.main-text p{
+padding: 0 100px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+margin: 20px 0;
+color: #4E5A65;
+
+
+}
+
+.email-box button{
+    background: #794CFF;
+border: 1px solid #794CFF;
+border-radius: 0px 4px 4px 0px;
+padding: 12px 20px;
+color: white;
+font-size: 20px;
+
+}
+.email-box input{
+background: #FFFFFF;
+border: 1px solid #E1E5EA;
+border-radius: 4px 0px 0px 4px;
+padding: 12px 20px;
+
+}
+.report{
+    margin: 30px 25px;
+}
+
+.header-down{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+text-align: center;
+color: #4E5A65;
+margin-top: 40px;
+margin-bottom: 60px;
+}
+.company-logos{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.google{
+    width: 10%;
+}
+
+
+
+/* ----------------------------------------.section-1------------------------------ */
+.section-2{
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+text-align: center;
+color: #35414B;
+}
+.section-2-wrapper{
+    padding: 50px 0;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.service-box{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px 0;
+}
+.sb-image{
+    width: 15%;
+}
+.service-box h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    align-items: center;
+    color: #35414B;
+}
+.service-box p{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #4E5A65;
+text-align: left;
+padding-right: 25px;
+
+line-height: 24px;
+}
+
+/* ----------------------------------------.section-2------------------------------ */
+.section-3{
+background: #FBFAFE;
+
+}
+.section-3-wrapper{
+    padding: 80px 0;
+}
+.section-3-wrapper .container{
+    display: flex;
+    margin: 0 auto;
+}
+.section-3-box1{
+    flex: 1;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-3-box2{
+    flex: 1;
+
+}
+.section-3-box1 h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #35414B;
+    padding-right: 100px;
+    margin-right: 10px;
+}
+.section-3-box1 p{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #4E5A65;
+padding: 25px 0;
+padding-right: 100px;
+margin-right: 70px;
+}
+
+/* ----------------------------------------.section-3------------------------------ */
+.section-4-wrapper{
+    padding: 100px 0;
+}
+.section-4 .main-text p{
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+color: #4E5A65;
+padding: 40px 95px;
+margin: 0 35px;
+}
+.section-4 .main-text h2{
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+color: #35414B;
+padding: 0 100px;
+margin: 0 50px;
+}
+.owners{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    gap: 30px;
+    padding: 0 30px;
+    margin: 20px 0;
+}
+.owner-1{
+    /* border: 2px solid black; */
+    width: 32%;
+    display: flex;
+    align-items: center;
+    border-top: 5px solid black;
+    padding: 20px 0;
+}
+.owner-name > p{
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #4E5A65;
+padding-left: 20px;
+
+
+}
+
+.section-4-end{
+background: #796EFF;
+border-radius: 16px;   
+display: flex;
+align-items: center;
+padding: 0 60px;
+justify-content: space-between;
+margin: 100px 0 0;
+
+}
+
+.section-4-end h2{
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+color: #FFFFFF;
+width: 50%;
+/* margin-right: 50px; */
+}
+.sec4-logos{
+   margin: 70px 10px; 
+}
+.sec-loogo{
+    display: flex;
+}
+/* ----------------------------------------.section-3------------------------------ */
+
+.footer-wrapper{
+background: #1D2830;
+padding-bottom: 20px;
+
+}
+.footer-anchors{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+.anchor-1{
+    display: flex;
+    flex-direction: column;
+}
+.anchor-1 a, .footer-comp-logo a{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #FFFFFF;
+text-decoration: none;
+margin-top: 20px;
+}
+
+.footer-bottom a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-comp-logo{
+    padding-right: 60px;
+}
+.foo-logo{
+    margin-top: 15px;
+}
+.footer-bottom{
+    display: flex;
+    align-items: center;
+/* border: 2px solid white; */
+justify-content: space-between;
+
+}
+.social{
+    display: flex;
+}
+.socail-1{
+margin-right: 10px;
+}
