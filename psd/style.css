@@ -20,9 +20,17 @@
 
 }
 .nav-menu{
-    padding-top: 16px;
-    margin-left: 70px;
-    padding-left: 90px;
+    width: 75%;
+    /* margin-left: 0px;
+    padding-left: 0px; */
+    display: flex;
+    justify-content: space-between;
+}
+.ham{
+    padding-top: 15px;
+}
+.row input, .row label{
+    display: none;
 }
 .nav-menu select{
 
@@ -30,7 +38,10 @@
     border: none;
 }
 .nav-menu a{
-    padding: 0 10px;
+    padding: 17px 10px 0
+}
+.row-right{
+    margin-left: 100px;
 }
 .row-right button{
 padding: 15px 20px;
@@ -49,6 +60,7 @@ border: none;
     display: flex; 
     border-radius: 30px;
     margin-bottom: 25px;
+      background-color: #ECE6FF;
 
 }
 .save{
@@ -65,6 +77,7 @@ border: none;
    justify-content: center;
    align-items: center;
     text-decoration: none;
+  
     color: black;
 }
 .main-text{
@@ -154,6 +167,9 @@ color: #35414B;
     gap: 20px;
     justify-content: space-between;
     margin: 40px 0;
+}
+.section-2 .row-right{
+    display: none;
 }
 .service-box{
     width: 30%;
@@ -266,7 +282,7 @@ margin: 0 50px;
     border-top: 5px solid black;
     padding: 20px 0;
 }
-.owner-name > p{
+.owner-name  p{
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -356,4 +372,7 @@ justify-content: space-between;
 }
 .socail-1{
 margin-right: 10px;
+}
+.mobile-anchors{
+    display: none;
 }
